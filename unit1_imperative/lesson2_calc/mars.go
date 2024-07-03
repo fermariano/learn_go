@@ -7,7 +7,7 @@ import (
 
 // main is the func where it all begins
 
-func main() {
+func print() {
 	fmt.Print("My weight on the surface of Mars is: ")
 	fmt.Print(149.0 * 0.3783)
 	fmt.Print("lbs, and I would be ")
@@ -20,5 +20,9 @@ func main() {
 
 	fmt.Println("\nOR")
 
-	fmt.Printf("My weight on the surface of Mars is %v lbs, and I would be %v years old", 149.0*0.3783, 41*365/687)
+	fmt.Printf("My weight on the surface of Mars is %v lbs, and I would be %v years old\n", 149.0*0.3783, 41*365/687)
+
+	fmt.Println("")
+
+	fmt.Printf("%-15v $%4v\n", "SpaceX", 94)
 }
