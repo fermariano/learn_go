@@ -6,7 +6,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func var_go() {
 	const lightSpeed = 299792 // km/s
 	var distance = 56000000   // km
 

@@ -7,7 +7,7 @@ import (
 
 // main is the func where it all begins
 
-func print() {
+func printLearn() {
 	fmt.Print("My weight on the surface of Mars is: ")
 	fmt.Print(149.0 * 0.3783)
 	fmt.Print("lbs, and I would be ")
