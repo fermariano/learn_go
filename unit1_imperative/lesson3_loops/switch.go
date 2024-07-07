@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func practice() {
 	var command = "a"
 
 	switch command {
