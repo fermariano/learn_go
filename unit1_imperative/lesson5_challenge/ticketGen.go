@@ -37,7 +37,7 @@ func generateTicket() {
 		case 1:
 			spacelineText = "SpaceX"
 		case 2:
-			spacelineText = "Virgin Galactic"
+			spacelineText = "Space Adventures"
 		}
 
 		const distance = 62100000
