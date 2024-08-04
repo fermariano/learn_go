@@ -1,8 +1,17 @@
 package main
 
+import "fmt"
+
 type Celsius float64
 type Fahrenheit float64
 type Kelvin float64
+
+func main() {
+	var teste Celsius = 5.2
+
+	fmt.Println(teste.fahrenheit())
+
+}
 
 func (k Kelvin) celsius() Celsius {
 	return Celsius(k - 273.15)
